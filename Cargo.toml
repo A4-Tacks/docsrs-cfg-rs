@@ -1,0 +1,17 @@
+[package]
+name = "docsrs-cfg"
+version = "0.1.0"
+edition = "2021"
+
+authors = ["A4-Tacks <wdsjxhno1001@163.com>"]
+keywords = ["doc", "docsrs", "doc_cfg"]
+description = "Quick use `doc_cfg` on docsrs"
+
+license = "MIT"
+repository = "https://github.com/A4-Tacks/closure-it-rs"
+readme = "README.md"
+
+[lib]
+proc-macro = true
+
+[dependencies]
