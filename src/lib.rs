@@ -12,7 +12,7 @@ pub fn docsrs_cfg(attr: TokenStream, item: TokenStream) -> TokenStream {
     macro_impl("docsrs", attr, item)
 }
 
-/// Like [`docsrs_cfg!()`], but use `doc` instead of `docsrs`
+/// Like [`macro@docsrs_cfg`], but use `doc` instead of `docsrs`
 ///
 /// ```
 /// use docsrs_cfg::doc_cfg;
